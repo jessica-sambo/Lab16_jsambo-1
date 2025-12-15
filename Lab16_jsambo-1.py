@@ -16,7 +16,7 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 
-path = Path('OHUR.csv')
+path = Path('unemployment_data/OHUR.csv')
 lines = path.read_text().splitlines()
 
 reader = csv.reader(lines)
